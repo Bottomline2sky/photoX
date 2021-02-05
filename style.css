@@ -135,5 +135,41 @@ header {
 }
 /* end of mission */
 
+/*Collection*/
+ .card-shadow{
+       box-shadow: 5px 8px 20px #444;
+ }
+ .heading{
+     position: absolute;
+     top: 70%;
+     right: 0;
+     font-size: 14px;
+     letter-spacing: 1px;
+     background: #222;
+     width: 70%;
+     cursor: pointer;
+     opacity: .7;
+     transition: all .5s;
+ }
+ .heading:hover{
+     opacity: 1;
+ }
+/*End of Collection*/
+
+/*Start of Gallery*/
+.underline-dark{
+    width: 150px;
+    border: 3px solid #888;
+    margin: auto;
+}
+  .gallery-list-item{
+      color: #777;
+      cursor: pointer;
+      user-select: none;
+  }
+  .active-item{
+        color: #70aed2;
+  }
+/*End Of Gallery*/
 
 
